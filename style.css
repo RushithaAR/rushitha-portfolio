@@ -548,3 +548,30 @@ span {
         width: 90vw;
     }
 }
+
+
+/* === Mobile Improvements by ChatGPT === */
+@media (max-width: 768px) {
+    .home-content {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-content h1 {
+        font-size: 3.6rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .contact form {
+        padding: 0 2rem;
+    }
+}
